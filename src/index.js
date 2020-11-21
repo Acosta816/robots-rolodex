@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'; //this library is the core of react and jsx syntax
+import ReactDOM from 'react-dom'; //little robot that interacts with the dom. can be replaced with a mobile interacting robot
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -15,3 +15,5 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
