@@ -2,11 +2,19 @@ import React from 'react'; //this library is the core of react and jsx syntax
 import ReactDOM from 'react-dom'; //little robot that interacts with the dom. can be replaced with a mobile interacting robot
 import './index.css';
 import App from './App';
+import LightApp from './Practice/Practice';
 import reportWebVitals from './reportWebVitals';
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LightApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
